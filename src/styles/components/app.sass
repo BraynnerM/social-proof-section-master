@@ -1,0 +1,41 @@
+@use '../variables'
+@use '../mixins'
+
+.container
+    display: flex
+    flex-direction: column
+    width: 100%
+    height: 100%
+
+    .top-side
+        width: 100%
+        height: 50%
+        .title
+            width: 100%
+            height: 100%
+            h1
+                color: variables.$h1-card-bg-color
+
+            p
+                color: variables.$p-color
+
+        .rating
+            width: 100%
+            height: 100%
+            span:nth-child(1)
+                @include mixins.rating-box
+
+            span:nth-child(2)
+
+            span:nth-child(3)
+
+    .bottom-side
+        width: 100%
+        height: 50%
+
+        span:nth-child(1)
+            @include mixins.user-box
+
+        span:nth-child(2)
+
+        span:nth-child(3)
