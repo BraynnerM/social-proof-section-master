@@ -5,8 +5,7 @@
     display: flex
     flex-direction: column
     width: 70rem
-    height: 37rem   
-    
+    height: 37rem
 
     .top-side
         width: 100%
@@ -16,45 +15,75 @@
         .title
             width: 100%
             height: 100%
+            margin: 0.3rem .7rem
             h1
                 color: variables.$h1-card-bg-color
+                font-size: 3.2rem
+                width: 21rem
 
             p
                 color: variables.$p-color
+                font-size: 1.1rem
+                font-weight: 500
+                width: 28rem
+                line-height: 1.5rem
+                margin-top: 2rem
 
         .rating
             width: 100%
-            height: 100%
+            height: 78.5%
             display: flex
             flex-direction: column
             justify-content: space-evenly
-            span:nth-child(1)
+            margin-top: 1rem
+            &-box
                 @include mixins.rating-box
+                display: flex
+                justify-content: space-between
+                align-items: center
+                padding-left: 1.5rem                
+                &-image                                        
+                    width:8.3rem
+                    height: 1rem
+                    display: flex
+                    justify-content: space-evenly
+                &-text
+                    color: variables.$h1-card-bg-color
+                    font-weight: 700
+                    font-size: 1.06rem
+            &-box:nth-child(1)
+                margin-left: .7rem
+                padding-right:5rem
 
-            span:nth-child(2)
+            &-box:nth-child(2)
+                margin-left: 3.5rem
+                padding-right:2.9rem
 
-            span:nth-child(3)
+            &-box:nth-child(3)
+                margin-left: 6.5rem
+                padding-right:4.7rem
 
     .bottom-side
         width: 100%
         height: 50%
         display: flex
         flex-direction: row
-        justify-content: center
+        gap: 1.8rem
         align-items: center
-
-        span:nth-child(1)
+        margin-left: .5rem
+        
+        span
             @include mixins.user-box
-            margin-left:5px
-            margin-bottom: 8px
-
-        span:nth-child(2)
-            @include mixins.user-box
-            margin-left:1.9rem
-            margin-top: 1.6rem
+            .user
+                display: flex          
             
 
-        span:nth-child(3)
-            @include mixins.user-box
-            margin-left:1.6rem
+        span:nth-child(1)                        
+            margin-bottom:.8rem                               
+            
+        span:nth-child(2)            
+            margin-top:1.2rem            
+
+        span:nth-child(3)            
             margin-top: 3.3rem
+            

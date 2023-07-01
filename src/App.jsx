@@ -10,9 +10,36 @@ function App() {
       </div>
 
       <div className="rating">
-        <span>Rated 5 Stars in Reviews </span>
-        <span>Rated 5 Stars in Report Guru </span>
-        <span>Rated 5 Stars in BestTech</span>
+        <div className="rating-box">
+          <span className="rating-box-image">
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+          </span>
+          <p className="rating-box-text">Rated 5 Stars in Reviews</p>
+        </div>
+        <div className="rating-box">
+          <span className="rating-box-image">
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+          </span>
+          <p className="rating-box-text">Rated 5 Stars in Report Guru</p>
+        </div>
+        <div className="rating-box">
+          <span className="rating-box-image">
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+            <img src="./src/assets/icon-star.svg" alt="star" />
+          </span>
+          <p className="rating-box-text">Rated 5 Stars in BestTech</p>
+        </div>
       </div>
 
     </div>
@@ -20,27 +47,42 @@ function App() {
     <div className="bottom-side">
 
       <span>
-        <h2>Colton Smith</h2>
-        <p>Verified Buyer</p>
-        <p>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>  
+        <div className="user">
+          <img src="./src/assets/image-colton.jpg" alt="user-photo" />
+          <div>
+            <h2>Colton Smith</h2>
+            <p>Verified Buyer</p>
+          </div>
+        </div>
+        <p>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
       </span>
 
-      <span>
-        <h2>Irene Roberts</h2>
-        <p>Verified Buyer</p>
-        <p>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>  
+      <span>       
+        <div className="user">
+          <img src="./src/assets/image-irene.jpg" alt="user-photo" />
+          <div>
+            <h2>Irene Roberts</h2>
+            <p>Verified Buyer</p>
+          </div>
+        </div>
+        <p>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
       </span>
 
-      <span>
-        <h2>Anne Wallace</h2>
-        <p>Verified Buyer</p>
-        <p>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>  
+      <span>       
+        <div className="user">
+          <img src="./src/assets/image-anne.jpg" alt="user-photo" />
+          <div>
+            <h2>Anne Wallace</h2>
+            <p>Verified Buyer</p>
+          </div>
+        </div>
+        <p>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
       </span>
-      
+
     </div>
 
   </section>
-      
+
 }
 
 export default App
