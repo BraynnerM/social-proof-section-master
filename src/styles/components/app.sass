@@ -18,8 +18,8 @@
             margin: 0.3rem .7rem
             h1
                 color: variables.$h1-card-bg-color
-                font-size: 3.2rem
-                width: 21rem
+                font-size: 3.3rem
+                width: 22rem
 
             p
                 color: variables.$p-color
@@ -27,7 +27,7 @@
                 font-weight: 500
                 width: 28rem
                 line-height: 1.5rem
-                margin-top: 2rem
+                margin-top: 1.6rem
 
         .rating
             width: 100%
@@ -70,12 +70,32 @@
         flex-direction: row
         gap: 1.8rem
         align-items: center
-        margin-left: .5rem
+        margin-left: .65rem
         
         span
-            @include mixins.user-box
+            @include mixins.user-box            
             .user
-                display: flex          
+                display: flex
+                gap: 1.3rem
+                .subname
+                    color: variables.$sub-name-color
+                    font-size: 1.09rem
+                    padding-top: .1rem
+                img
+                    border-radius: 50%
+                    width: 2.5rem
+                    height: 2.5rem                    
+                h2
+                    color: variables.$name-color
+                    font-size: 1.08rem 
+                    padding-top: 0.19rem               
+            p  
+                color: variables.$rating-bg-color
+                padding-top: 1.5rem
+                padding-left: 0.3rem
+                font-size: 1.03rem
+                line-height: 1.4rem
+                 
             
 
         span:nth-child(1)                        

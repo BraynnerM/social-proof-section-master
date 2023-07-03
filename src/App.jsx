@@ -51,10 +51,10 @@ function App() {
           <img src="./src/assets/image-colton.jpg" alt="user-photo" />
           <div>
             <h2>Colton Smith</h2>
-            <p>Verified Buyer</p>
+            <p className="subname">Verified Buyer</p>
           </div>
         </div>
-        <p>"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
+        <p>" We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! "</p>
       </span>
 
       <span>       
@@ -62,10 +62,10 @@ function App() {
           <img src="./src/assets/image-irene.jpg" alt="user-photo" />
           <div>
             <h2>Irene Roberts</h2>
-            <p>Verified Buyer</p>
+            <p className="subname">Verified Buyer</p>
           </div>
         </div>
-        <p>"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+        <p>" Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery. "</p>
       </span>
 
       <span>       
@@ -73,10 +73,10 @@ function App() {
           <img src="./src/assets/image-anne.jpg" alt="user-photo" />
           <div>
             <h2>Anne Wallace</h2>
-            <p>Verified Buyer</p>
+            <p className="subname">Verified Buyer</p>
           </div>
         </div>
-        <p>"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+        <p>" Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone! "</p>
       </span>
 
     </div>
