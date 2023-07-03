@@ -1,4 +1,5 @@
 import "./styles/components/app.sass"
+import "./styles/components/responsive.sass"
 
 function App() {
   return <section className="container">
