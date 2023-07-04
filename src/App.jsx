@@ -33,7 +33,7 @@ function App() {
         </div>
         <div className="rating-box">
           <span className="rating-box-image">
-            <img src="../public/assets/icon-star.svg" alt="star" />
+            <img src="./public/assets/icon-star.svg" alt="star" />
             <img src="../public/assets/icon-star.svg" alt="star" />
             <img src="../public/assets/icon-star.svg" alt="star" />
             <img src="../public/assets/icon-star.svg" alt="star" />
