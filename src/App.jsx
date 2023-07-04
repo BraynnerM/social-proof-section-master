@@ -13,31 +13,31 @@ function App() {
       <div className="rating">
         <div className="rating-box">
           <span className="rating-box-image">
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
           </span>
           <p className="rating-box-text">Rated 5 Stars in Reviews</p>
         </div>
         <div className="rating-box">
           <span className="rating-box-image">
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
           </span>
           <p className="rating-box-text">Rated 5 Stars in Report Guru</p>
         </div>
         <div className="rating-box">
           <span className="rating-box-image">
-            <img src="./public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
-            <img src="../public/assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
+            <img src="./assets/icon-star.svg" alt="star" />
           </span>
           <p className="rating-box-text">Rated 5 Stars in BestTech</p>
         </div>
@@ -49,7 +49,7 @@ function App() {
 
       <span>
         <div className="user">
-          <img src="../public/assets/image-colton.jpg" alt="user-photo" />
+          <img src="./assets/image-colton.jpg" alt="user-photo" />
           <div>
             <h2>Colton Smith</h2>
             <p className="subname">Verified Buyer</p>
@@ -60,7 +60,7 @@ function App() {
 
       <span>
         <div className="user">
-          <img src="../public/assets/image-irene.jpg" alt="user-photo" />
+          <img src="./assets/image-irene.jpg" alt="user-photo" />
           <div>
             <h2>Irene Roberts</h2>
             <p className="subname">Verified Buyer</p>
@@ -71,7 +71,7 @@ function App() {
 
       <span>
         <div className="user">
-          <img src="../public/assets/image-anne.jpg" alt="user-photo" />
+          <img src="./assets/image-anne.jpg" alt="user-photo" />
           <div>
             <h2>Anne Wallace</h2>
             <p className="subname">Verified Buyer</p>
